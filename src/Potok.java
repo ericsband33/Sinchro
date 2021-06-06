@@ -12,10 +12,11 @@ public class Potok implements Runnable {
         this.p = p;
         t = new Thread(this);
         t.setPriority(p);
-        t.start();
+        //t.start();
     }
     public void run(){
          def.out(name);
+         def.u = false;
         }
 
 }
